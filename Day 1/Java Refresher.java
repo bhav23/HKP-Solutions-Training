@@ -96,3 +96,19 @@ super -> calls parent methods
 
 /*
 Organizing Object Behavior with Interfaces
+
+Class --> defines an object
+Interface --> defines some behavior that can be applied to an object
+
+Ex. Swimmer Interface (bunch of methods that  can be applied to anything
+that can swim.
+
+Keyword: implements
+similar to extends but copies the interface's methods 
+*/
+
+/*
+Organizing Classes and Interfaces with Packages
+
+Package = set of classes and interfaces bundled together
+*/
