@@ -36,3 +36,63 @@ if (character == 'a')
 }
 
 */
+
+/*
+File Type Jargon
+
+JAR - Jar Archive
+
+Android applications take JAR files and package them for deployment on devices as 
+APK - Android Package files
+*/
+
+/*
+What is an Object Oriented Programming Language?
+
+-Objects are custom data types
+  -Dog Object as blueprint for a generic dog, with instance variables for
+  name, breed, and gender
+  -Can create diff instances of Dog object to represent specific dogs
+
+Dog dog1 = new Dog("Lassie", collie, female);
+Dog dog2 = new Dog("Fifi", poodle, female);
+Dog dog3 = new Dog("Asta", foxterrier, male);
+
+Class provides the definitino for an object 
+Class will be defined in its own file with the filename matching the class
+name e.g. Dog.jafva
+  -Exception is when a class has a helper class (aka inner class)
+  
+When one wants to reference an object from within another  class, need to
+incdue import statement 
+
+Class describes the data and behavior of an object 
+  -Methods = the behavior
+    -aka subroutine (sub in VBA)
+*/
+
+/*
+Understanding Inheritance
+
+Inheritance means that objects have hieriarchies
+
+-the lower the more specific a class is
+  -inherits behavior from higher, more generic classes
+  
+Example: Aquarium
+  -Fish class: species, color, size, behaviors[eat(), sleep(), makeBabyFish()]
+
+Inheritance utilizes the extends keyword
+
+subclass = dervied class
+superclass = parent class
+
+Fish: FreshwaterFish and SaltwaterFish
+
+Key words:
+super -> calls parent methods
+@Override --> overide a parent method
+*/
+
+/*
+Organizing Object Behavior with Interfaces
